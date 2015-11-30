@@ -1426,7 +1426,18 @@
 
 		/* List */
 
+			.traits {
+				list-style-type:none;
+				padding:0px;
+				margin:0px;
+			}
+
 			ul {
+				&.traits {
+					list-style-type:none;
+					padding:0px;
+					margin:0px;
+				}
 				&.actions {
 					margin: 0 0 _size(element-margin) 0;
 
