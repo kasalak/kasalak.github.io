@@ -16,9 +16,9 @@ body {overflow:auto; height:7600px; }
 #pattern1 {    background: #6762a6 url('../images/part3.png')center center no-repeat;
     z-index: 2;
 	}
-.ribbon {background:#f5af02; height:40px; top:50%; margin-top:-20px; z-index:3;   }
+/*.ribbon {background:#f5af02; height:40px; top:50%; margin-top:-20px; z-index:3;   }
 #ribbon-left {left:0}
-#ribbon-right {right:0}
+#ribbon-right {right:0}*/
 path.skrollable.unrendered {
     stroke: #f5af02!important;
 }
