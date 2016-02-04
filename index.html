@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <!--
+Karthik Kasala's Portfolio
 -->
 <html>
 	<head>
@@ -8,105 +9,201 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
 
-		<!-- Wrapper-->
-			<div id="wrapper">
+		<!-- Header -->
+			<div id="header">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#me" class="icon fa-home active"><span>Home</span></a>
-						<a href="#work" class="icon fa-folder"><span>Work</span></a>
-						<a href="Resume.pdf" class="icon fa-file-pdf-o"><span>Resume</span></a>
-						<a href="mailto:karthik.kasala@gmail.com" class="icon fa-envelope"><span>Email</span></a>
-						<a href="https://www.linkedin.com/in/karthikkasala" class="icon fa-linkedin"><span>LinkedIn</span></a>
-						<a href="https://github.com/kasalak" class="icon fa-github"><span>Github</span></a>
-					</nav>
+				<div class="top">
 
-				<!-- Main -->
-					<div id="main">
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Karthik Kasala</h1>
+							<p>Back-End Engineer</<p>
 
-						<!-- Me -->
-							<article id="me" class="panel">
-								<header>
-									<h1>Karthik Kasala</h1>
-									<p>Back-End Developer</p>
-								</header>
-								<a href="#work" class="jumplink pic">
-									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
-									<img src="images/avatar.jpg" alt="" />
-								</a>
-							</article>
+						</div>
 
-						<!-- Work -->
-							<article id="work" class="panel">
-								<header>
-									<h2>Projects</h2>
-								</header>
-								<p>
-									These are all the projects that I have completed work on during and after my time at the Iron Yard campus in Durham, NC.
-								</p>
-								<section>
-									<div class="row">
-										<div class="4u 12u$(mobile)">
-											<a href="https://tiy-bracket.herokuapp.com/" class="image fit"><img src="images/versus.live.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="https://github.com/kasalak/Moneyball" class="image fit"><img src="images/moneyball.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="https://github.com/kasalak/python_koans" class="image fit"><img src="images/python-koans.jpg" alt=""></a>
-										</div>
-									</div>
-								</section>
-							</article>
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
 
-						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<form action="#" method="post">
-									<div>
-										<div class="row">
-											<div class="6u 12u$(mobile)">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="6u$ 12u$(mobile)">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="12u$">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="12u$">
-												<textarea name="message" placeholder="Message" rows="8"></textarea>
-											</div>
-											<div class="12u$">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
-							</article>
+								Prologue's nav expects links in one of two formats:
 
-					</div>
+								1. Hash link (scrolls to a different section within the page)
 
-				<!-- Footer -->
-					<div id="footer">
-						<ul class="copyright">
-							<li>&copy; Karthik Kasala All Rights Reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact Info</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/karthikkasala" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="Resume.pdf" class="icon fa-file-pdf-o"><span class="label">Facebook</span></a></li>
+							<li><a href="www.github.com/kasalak" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="mailto:karthik.kasala@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
-					</div>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Karthik Kasala</strong>, a back-end engineer <br />
+								experienced in Python and Django web development.</h2>
+								<p>I undertook the Back-End Engineering Track in Python & Data Science at the Iron Yard in Durham, NC as part of Cohort 5 in Fall 2015.</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Portfolio</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>These are the projects I worked on during and after my time at the Iron Yard, as well as the books I'm currently working through to increase my knowledge base.</p>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="https://tiy-bracket.herokuapp.com/" class="image fit"><img src="images/versus.live.jpg" alt="" /></a>
+										<header>
+											<h3>Versus.live: a web application for creating tournament brackets for the casual user. Source code found <strong><a href="https://github.com/TIY-Bracket/bracket_api">here.</a></strong></h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/moneyball.jpg" alt="" /></a>
+										<header>
+											<h3>Moneyball: Using data science techniques to create an cost-effective baseball roster.Source code found <strong><a href="https://github.com/TIY-Bracket/bracket_api">here.</a></strong></h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/python-koans.jpg" alt="" /></a>
+										<header>
+											<h3>Python Koans: a port of Ruby Koans used to learn Test-Driven Development in a fun, intuitive manner.Source code found <strong><a href="https://github.com/TIY-Bracket/bracket_api">here.</a></strong></h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/2-scoops-of-django.jpg" alt="" /></a>
+										<header>
+											<h3>Two Scoops of Django: Best Practices for Django 1.8</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/tdd-python.jpg" alt="" /></a>
+										<header>
+											<h3>Test-Driven Development with Python</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/effective-python.jpg" alt="" /></a>
+										<header>
+											<h3>Effective Python: 59 Specific Ways to Write Better Python</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+
+							<p>I'm interested in entry roles in back-end web development, QA testing, and software engineering.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact Information</h2>
+							</header>
+
+							<p>Feel free to give me a call at 919-943-8085 or through email at karthik.kasala@gmail.com. <br>
+							My LinkedIn profile, resume, and Github profile can be found to the left.
+							</p>
+
+							<form method="post" action="#">
+								<!-- <div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div> -->
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; 2016 Karthik Kasala. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
 
 			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
